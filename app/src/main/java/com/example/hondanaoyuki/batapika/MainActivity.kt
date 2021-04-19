@@ -43,8 +43,6 @@ class MainActivity : AppCompatActivity() ,SensorEventListener {
                 lightOn = enabled
             }
         }, Handler())
-
-
     }
 
     override fun onResume() {
